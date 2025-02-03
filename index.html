@@ -8,19 +8,34 @@
 </head>
 <body>
 <main>
+    
     <section id="login_section">
-        <div class="img">
-            pic
+        <div class="kita">
+            <img src="images/kita_freaky.png" alt="kita">
         </div>
 
         <div class="form">
-        <h1>Login</h1>
-        <p>
-            Seja bem vindo(a) novamente! Faça login para acessar o site
-            <form action="login.php" method="post"></form>
-        </p>
+            <h1>Login</h1>
+            <p>
+                Seja bem vind@ novamente! Faça login para acessar o site
+                <form action="login.php" method="post">
+                    <p>
+                        <label for="ilogin">User:</label>
+                        <input type="email" id="ilogin">
+                    </p>
+                    <p>
+                        <label for="ipass">Password:</label>
+                        <input type="text" id="ipass">
+                    </p>
+                     <input type="submit" id="enviar" >
+                </form>
+                
+            </p>
         </div>
     </section>
 </main>
+<script>
+    document.getElementById("enviar").value = "mandar";
+</script>
 </body>
 </html>

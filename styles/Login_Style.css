@@ -1,8 +1,59 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 /*
     Paleta de cores:
     Preto
     Branco
     Amarelo
 */
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+html{
+    height: 100vh;
+}
+body{
+    background: url(../images/1528093.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    backdrop-filter: blur(7px);
+}
+section{
+    height: 100vh;
+}
+#login_section{
+    
+    font-family: 'IBM Plex Mono';
+}
+#login_section > .form > h1{
+  font-size: 1.5em;
+}
+.kita > img{
+    border-radius: 20px 0px 0px 20px;
+    height: 50vh;
+    margin: auto;
+    display: inline;
+    border: solid white 2px;
+}
+.form{
+    background-color: black;
+    border: white solid 2px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 0px 20px 20px 0px;
+    text-align: right;
+   
+}
+.form > form{
+    user-select: none;
+}
+#ilogin, #ipass, #enviar{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgb(255, 255, 255) solid 1px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 2.5px;
+}
