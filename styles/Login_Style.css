@@ -11,8 +11,9 @@
     padding: 0px;
     color: white;
 }
-html{
+html, body{
     height: 100vh;
+    width: 100vw;
 }
 body{
     background: url(../images/1528093.jpg);
@@ -23,6 +24,7 @@ body{
 }
 section{
     height: 100vh;
+    width: 100vw;
 }
 #login_section{
     
@@ -34,6 +36,7 @@ section{
 .kita > img{
     border-radius: 20px 0px 0px 20px;
     height: 50vh;
+    width: 56vw;
     margin: auto;
     display: inline;
     border: solid white 2px;
@@ -43,9 +46,8 @@ section{
     border: white solid 2px;
     display: inline-block;
     padding: 5px;
-    border-radius: 0px 20px 20px 0px;
     text-align: right;
-   
+    border-radius: 8px;
 }
 .form > form{
     user-select: none;
@@ -56,4 +58,11 @@ section{
     border-radius: 5px;
     font-weight: bolder;
     padding: 2.5px;
+}
+#login_section > .kita{
+    background: url(../images/kita_freaky.png) no-repeat;
+    background-size: cover;
+    width: 550px;
+    height: 500px;
+    overflow: hidden;
 }
