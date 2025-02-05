@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Ajuste conforme necessário */
+  height: 400px; /* Ajuste conforme necessário */
+  border-radius:; /* Borda arredondada */
+  overflow: hidden; /* Garante que o conteúdo interno respeite o border-radius */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/kita_freaky.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
+  z-index: 1; /* Coloca a imagem atrás do formulário */
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Ajuste conforme necessário */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+  border-radius: 10px; /* Borda arredondada para o formulário */
+  z-index: 2; /* Coloca o formulário na frente da imagem */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para destacar o formulário */
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="background-image"></div>
+        <div class="login-form">
+          <form>
+            <input type="text" placeholder="Usuário" />
+            <input type="password" placeholder="Senha" />
+            <button type="submit">Entrar</button>
+          </form>
+        </div>
+      </section>
+    
+</body>
+</html>

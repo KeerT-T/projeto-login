@@ -19,35 +19,40 @@ body{
     background: url(../images/1528093.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     backdrop-filter: blur(7px);
 }
-section{
-    height: 100vh;
-    width: 100vw;
-}
 #login_section{
-    
     font-family: 'IBM Plex Mono';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #login_section > .form > h1{
   font-size: 1.5em;
 }
-.kita > img{
-    border-radius: 20px 0px 0px 20px;
+.kita{
+    background: url(../images/kita_freaky.png) no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 50vh;
-    width: 56vw;
-    margin: auto;
-    display: inline;
-    border: solid white 2px;
+    width: 65vw;
+}
+.form, .kita{
+    overflow: hidden;
+    border-radius: 8px;
 }
 .form{
     background-color: black;
     border: white solid 2px;
     display: inline-block;
     padding: 5px;
-    text-align: right;
-    border-radius: 8px;
+    text-align: center;
+
+}
+form > p{
+    padding-top: 5px;
 }
 .form > form{
     user-select: none;
@@ -58,11 +63,4 @@ section{
     border-radius: 5px;
     font-weight: bolder;
     padding: 2.5px;
-}
-#login_section > .kita{
-    background: url(../images/kita_freaky.png) no-repeat;
-    background-size: cover;
-    width: 550px;
-    height: 500px;
-    overflow: hidden;
 }
