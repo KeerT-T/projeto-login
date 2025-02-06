@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* 2024 Breakpoints Values:
+    Extra small mobile: 320–480px (smartphones, portrait)
+    Small tablet: 601–768px (tablets, portrait)
+    Small desktop: 1025–1280px (laptops, small desktops)
+    Large desktop: 1281–1440px (large desktops, high-res screens)
+*/
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .kita{
+        width: 90vw;
+        background-position: middle;
+    }
+    #login_section > .kita{
+        float: left;
+        width: 50vw;
+        height: 200vh;
+    }
+    #login_section > .form{
+        float: right;
+        width: 50vw;
+        height: 70vh;
+    }
+}

@@ -35,9 +35,10 @@ body{
 .kita{
     background: url(../images/kita_freaky.png) no-repeat;
     background-position: center;
+    display: block;
     background-size: cover;
-    height: 50vh;
-    width: 65vw;
+    height: 350px;
+    width: 365px;
 }
 .form, .kita{
     overflow: hidden;
@@ -49,7 +50,7 @@ body{
     display: inline-block;
     padding: 5px;
     text-align: center;
-
+    display: block;
 }
 form > p{
     padding-top: 5px;

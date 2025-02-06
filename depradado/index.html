@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/Login_Style.css">
+    <link rel="stylesheet" href="styles/mq.css">
+</head>
+<body>
+<main>
+    <!-- 2 divs ARRUMAR ANTES DE COMEÇAR O PROXIMO VIDEO -->
+    <section id="login_section">
+        
+        <div class="form">
+            <div class="kita">
+            </div>
+            <h1>Login</h1>
+            <p>
+                Seja bem vind@ novamente! <br> Faça login para acessar o site </p>
+                <form action="login.php" method="post">
+                    <p>
+                        <label for="ilogin">User:</label>
+                        <input type="email" id="ilogin">
+                    </p>
+                    <p>
+                        <label for="ipass">Pass:</label>
+                        <input type="text" id="ipass">
+                    </p>
+                     <input type="submit" id="enviar" >
+                </form>
+                
+            </p>
+        </div>
+    </section>
+</main>
+<script>
+    document.getElementById("enviar").value = "mandar";
+</script>
+</body>
+</html>

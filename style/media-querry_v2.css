@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Breakpoints Values:
+    CELULAR PEQUENO:----0 - 576px 
+    CELULAR:------------576px - 768px
+    TABLET:-------------768px - 992px
+    NOTEBOOK:-----------992px - 1200px
+    DESKTOP:------------1200px - 1400px
+    TV:---------------- >1400px
+*/
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+    #login_sec > .form_login{
+        top: 25%;
+        position: relative;
+    }
+    #login_sec{
+        width: 80vw;
+        text-align: left;
+    }
+    #login_sec > .kita{
+        float: left;
+        width: 40%;
+        height: 100%;
+
+    }
+    #login_sec > .form_login{
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+}
+
+/* NOTEBOOKS */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+   
+    #login_sec{
+        width: 80vw;
+        text-align: left;
+    }
+    #login_sec > .kita{
+        background-size:100% 100%;
+        background-position: center;
+    }
+}

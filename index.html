@@ -3,38 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="styles/Login_Style.css">
+    <title>Projeto Login v2 xD</title>
+    <link rel="stylesheet" href="style/estilo_v2.css">
+    <link rel="stylesheet" href="style/media-querry_v2.css">
 </head>
 <body>
-<main>
-    <!-- 2 divs ARRUMAR ANTES DE COMEÇAR O PROXIMO VIDEO -->
-    <section id="login_section">
-        
-        <div class="form">
-            <div class="kita">
-            </div>
-            <h1>Login</h1>
-            <p>
-                Seja bem vind@ novamente! <br> Faça login para acessar o site </p>
+    <main>
+        <img class="bocchi" src="images/bocchi.png" alt="bocchi">
+        <section id="login_sec">
+            <div class="kita"></div>
+            <div class="form_login">
+                <h1>Login</h1>
+                <p>Seja Bem vind@! <br>
+                Faça login para acessar sua conta</p>
                 <form action="login.php" method="post">
                     <p>
-                        <label for="ilogin">User:</label>
-                        <input type="email" id="ilogin">
+                        <label for="User">User:</label>
+                        <input type="email" id="User">
                     </p>
                     <p>
-                        <label for="ipass">Pass:</label>
-                        <input type="text" id="ipass">
+                        <label for="Pass">Pass:</label>
+                        <input type="text" id="Pass">
                     </p>
-                     <input type="submit" id="enviar" >
+                    <input type="submit" id="enviar">
                 </form>
-                
-            </p>
-        </div>
-    </section>
-</main>
-<script>
-    document.getElementById("enviar").value = "mandar";
-</script>
+            </div>
+        </section>
+    </main>
+    <script>document.getElementById("enviar").value = "entrar";</script>
 </body>
 </html>
