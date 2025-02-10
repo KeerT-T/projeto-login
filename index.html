@@ -6,6 +6,7 @@
     <title>Projeto Login v2 xD</title>
     <link rel="stylesheet" href="style/estilo_v2.css">
     <link rel="stylesheet" href="style/media-querry_v2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
 </head>
 <body>
     <main>
@@ -17,15 +18,20 @@
                 <p>Seja Bem vind@! <br>
                 Faça login para acessar sua conta</p>
                 <form action="login.php" method="post">
-                    <p>
-                        <label for="User">User:</label>
-                        <input type="email" id="User">
-                    </p>
-                    <p>
-                        <label for="Pass">Pass:</label>
-                        <input type="text" id="Pass">
-                    </p>
-                    <input type="submit" id="enviar">
+                    <div>
+                        <label for="User"><span class="material-symbols-sharp">
+                            mail
+                            </span></label><br>
+                        <input type="email" id="User" placeholder="e-mail" autocomplete="on" required>
+                    </div>
+                    <div>
+                        <label for="Pass"><span class="material-symbols-sharp">
+                            key
+                            </span></label><br>
+                        <input type="password" id="Pass" placeholder="senha" autocomplete="on" required>
+                    </div><br>
+                    <input type="submit" id="enviar"><br> <br>
+                    <a id="forgot" href="forgot.html">Esqueci a senha</a>
                 </form>
             </div>
         </section>

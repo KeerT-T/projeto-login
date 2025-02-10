@@ -10,25 +10,26 @@
 */
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px){
-    
     #login_sec > .form_login{
         top: 25%;
         position: relative;
     }
     #login_sec{
-        width: 80vw;
         text-align: left;
+        font-size: 1.4em;
     }
     #login_sec > .kita{
         float: left;
         width: 40%;
         height: 100%;
-
     }
     #login_sec > .form_login{
         float: right;
         width: 60%;
         height: 100%;
+    }
+    #forgot{
+        font-size: 0.7em;
     }
 }
 
@@ -44,3 +45,28 @@
         background-position: center;
     }
 }
+/* DESKTOPS */
+@media screen and (min-width: 1200px){
+    #login_sec{
+        width: 80vw;
+        text-align: right;
+        font-size: 1em;
+        padding: 0px;
+    }
+    #login_sec > .form_login{
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+    #login_sec > .kita{
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+    #forgot{
+        font-size: 1em;
+    }
+    h1, p{
+        font-size: 2em;
+    }
+    }
