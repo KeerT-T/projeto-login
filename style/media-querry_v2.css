@@ -31,6 +31,16 @@
     #forgot{
         font-size: 0.7em;
     }
+    form > #enviar[type=submit]{
+        width: 70%;
+        margin: 0px;
+    }
+    form > #forgot{
+        display: block;
+        width: 65%;
+        text-align: center;
+        margin: 0px;
+    }
 }
 
 /* NOTEBOOKS */
@@ -38,18 +48,22 @@
    
     #login_sec{
         width: 80vw;
-        text-align: left;
+        text-align: center;
     }
     #login_sec > .kita{
         background-size:100% 100%;
         background-position: center;
+    }
+    form > #forgot{
+        width: 40%;
+        margin: auto;
     }
 }
 /* DESKTOPS */
 @media screen and (min-width: 1200px){
     #login_sec{
         width: 80vw;
-        text-align: right;
+        text-align: left;
         font-size: 1em;
         padding: 0px;
     }
@@ -68,5 +82,13 @@
     }
     h1, p{
         font-size: 2em;
+    }
+    form > #enviar[type=submit]{
+        width: 28.5%;
+        margin: 0px;
+    }
+    form > #forgot{
+        width: 25%;
+        margin: 0px;
     }
     }
