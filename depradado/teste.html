@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        form{
+            background-color: purple;
+            display: inline-block;
+            padding: 10px, 0px;
+            border-radius: 15px;
+
+        }
+        span{
+            color: white;
+        }
+        #user, #pass{
+            background-color: rosybrown;
+            border: 1px solid white;
+            border-radius: 5px;
+            height: 35px;
+        }
+    </style>
+</head>
+<body>
+    <form action="das.php">
+        <div>
+            <label for="user"><span class="material-symbols-sharp">
+                email
+                </span></label>
+            <input type="email" id="user">
+        </div>
+        <br>
+        <div>
+            <label for="pass"><span class="material-symbols-sharp">
+                key
+                </span></label>
+                <input type="password" id="pass">
+            </div>
+    </form>
+</body>
+</html>
